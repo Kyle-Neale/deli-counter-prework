@@ -1,6 +1,6 @@
 def line(array)
   if array.empty?
-    return "The line is currently empty."
+    puts "The line is currently empty."
   else
     line_name_n_numbers = []
     array.each { |person|
