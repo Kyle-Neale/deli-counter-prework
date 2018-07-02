@@ -18,7 +18,6 @@ def now_serving(line)
   if line.empty?
     puts "There is nobody waiting to be served!"
   else
-    name = line.unshift
-    puts "Currently serving #{name}."
+    puts "Currently serving #{line.unshift}."
   end
 end
