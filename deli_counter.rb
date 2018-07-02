@@ -8,3 +8,5 @@ def line(array)
     puts "The line is currently #{line_name_n_numbers.join(' ')}"
   end
 end
+
+def take_a_number(katz_deli, name)
